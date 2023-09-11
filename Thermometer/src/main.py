@@ -13,13 +13,22 @@ Expression course.
 
 def main():
     
-    # TODO: Print program name
+    # Print program name
+    print("Farenheight to Celsius converter", end = "\n\n")
 
-    # TODO: Request user input
 
-    # TODO: Perform calculation
+    # Request user input
+    temp_f = input("Enter the Tempreture(without units): ")
+    print(temp_f)
 
-    # TODO: Report result
+    # Perform calculation
+    temp_c =int(temp_f) - 32
+    temp_c *= 5/9
+    
+    
+
+    # Report result
+    print("The Tempreture is: ", temp_c)
 
 if __name__ == "__main__":
     main()
