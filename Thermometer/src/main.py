@@ -22,13 +22,13 @@ def main():
     print(temp_f)
 
     # Perform calculation
-    temp_c =int(temp_f) - 32
+    temp_c = int(temp_f) - 32
     temp_c *= 5/9
     
     
 
     # Report result
-    print("The Tempreture is: ", temp_c)
+    print(f"The Tempreture is: , {temp_c:.{1}f}")
 
 if __name__ == "__main__":
     main()
